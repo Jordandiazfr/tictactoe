@@ -1,0 +1,184 @@
+/* HOME ZONE */
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Fredoka One", cursive, sans-serif;
+  background-color: #000;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: none;
+  max-width: 70%;
+  margin: auto;
+  padding: 1rem;
+  align-items: center;
+}
+
+.btn-index {
+  font-weight: 300;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  border: none;
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+  background-color: #fff;
+}
+.btn-index:hover {
+  background-color: #000;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
+h1 {
+  color: #fff;
+  font-family: "Fredoka One", cursive;
+  font-weight: 200;
+  font-size: 5rem;
+}
+
+.animation {
+  -webkit-animation: fadeinout 0.6s linear forwards;
+  animation: fadeinout 0.6s linear forwards;
+}
+
+.rouge {
+  color: red;
+}
+
+@-webkit-keyframes fadeinout {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes fadeinout {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+label {
+  font-family: "Didot", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+
+.btn_lien_game {
+  margin-left: 2rem;
+}
+
+/* IA VS PLAYER ZONE */
+table {
+  font-family: inherit;
+  color: #fff;
+  border-collapse: collapse;
+  position: absolute;
+  top: 5rem;
+}
+
+td {
+  border: 2px solid #333;
+  height: 8rem;
+  width: 8rem;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 6rem;
+  cursor: pointer;
+}
+
+table tr:first-child td {
+  border-top: 0;
+}
+
+table tr:last-child td {
+  border-bottom: 0;
+}
+
+table tr td:first-child {
+  border-left: 0;
+}
+table tr td:last-child {
+  border-right: 0;
+}
+
+.endgame {
+  display: none;
+  width: 100%;
+  top: 120px;
+  background-color: rgba(117, 117, 117, 0.8);
+  position: absolute;
+  padding-top: 5rem;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 3rem;
+}
+
+.selectSym {
+  font-weight: 50;
+  display: none;
+  width: 100%;
+  margin: auto;
+  top: 110px;
+  background-color: #333;
+  position: absolute;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+}
+
+.symbolbtn {
+  margin: auto;
+  border: none;
+  border-radius: 0.5rem;
+  font-family: inherit;
+  font-size: 6rem;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #000;
+  color: #fff;
+}
+
+.selectSym button:hover {
+  background-color: rgb(24, 24, 24);
+}
+
+.replay {
+  margin: auto;
+  margin-top: 60%;
+  font-family: inherit;
+  font-size: 2.5rem;
+  color: white;
+  background-color: inherit;
+  border: none;
+}
+
+.replay:hover {
+  color: beige;
+}
