@@ -18,6 +18,9 @@ body {
   align-items: center;
 }
 
+.welcome {
+  padding-top: 10rem;
+}
 .container {
   background-color: none;
   max-width: 70%;
@@ -34,9 +37,11 @@ body {
   align-content: center;
   text-align: center;
   border: none;
-  padding: 1rem;
+  padding: 2rem;
   margin: 1rem auto;
   border-radius: 0.5rem;
+
+  margin-top: 2rem;
   background-color: #fff;
 }
 .btn-index:hover {
@@ -181,4 +186,12 @@ table tr td:last-child {
 
 .replay:hover {
   color: beige;
+}
+
+/* PVP ZONE */
+
+.info {
+  margin-top: 50%;
+  font-size: 3rem;
+  color: white;
 }
