@@ -20,7 +20,10 @@ const activate = () => {
 
 const playGame = (e) => {
   cell = e.target.id;
+
   document.getElementById(cell).innerText = randPlayer;
+  
+
 };
 
 activate();
